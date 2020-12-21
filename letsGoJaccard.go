@@ -1,4 +1,4 @@
-package jaccard
+package letsGoJaccard
 
 import (
 	"strings"
