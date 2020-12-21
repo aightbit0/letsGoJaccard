@@ -4,7 +4,8 @@ import (
 	"strings"
 )
 
-func jaccard(searchval string, stest string) float64 {
+//Jaccard ...
+func Jaccard(searchval string, stest string) float64 {
 	intersection := make(map[string]bool)
 	union := make(map[string]bool)
 	val1 := strings.Split(searchval, "")
